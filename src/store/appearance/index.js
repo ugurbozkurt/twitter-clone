@@ -7,7 +7,7 @@ const initialState = {
     hvColor: "#e7e7e8",
     fontColor: "#0f1419",
     sectionColor: "#f7f9f9",
-    baseSecondary: "#8b98a5",
+    baseSecondary: "#536471",
     boxShadow: "#00000033 0px 0px 15px, #00000026 0px 0px 3px 1px",
   },
   colors: {
