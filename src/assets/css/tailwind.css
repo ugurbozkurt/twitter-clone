@@ -1,0 +1,24 @@
+/* index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+html{
+    font-family: 'Twitter Chirp Regular' ,sans-serif,BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body{
+    @apply bg-[color:var(--background-primary)] text-[15px] antialiased  tracking-normal;
+
+} 
+
+.shadow-box {
+    box-shadow: var(--shadowBox);
+}
