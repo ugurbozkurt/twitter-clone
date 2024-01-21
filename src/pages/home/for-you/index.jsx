@@ -1,12 +1,22 @@
+import { posts as postData } from "../../../mock/posts";
 import Post from "../../../components/post";
-import { posts } from "../../../mock/posts";
+import { useState } from "react";
+import { WindowVirtualizer } from "virtua";
 export default function ForYou() {
-  return(
-  <div>
-    {posts.map((post,idx) => (
-      <Post post={post} key={idx} />
-    ))}
-  
-  </div>
-  )
+  const [posts, setPosts] = useState(postData);
+
+  return (
+    <WindowVirtualizer
+      onRangeChange={(start, end) => {
+   
+        if (end + 1 === posts.length) {
+          setPosts((prev) => [...prev, ...postData]);
+        }
+      }}
+    >
+      {posts.map((post, key) => (
+        <Post post={post} key={post.id + key} />
+      ))}
+    </WindowVirtualizer>
+  );
 }

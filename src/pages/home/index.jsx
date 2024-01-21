@@ -11,11 +11,10 @@ export default function Home() {
           <Tab.Item id="followings">Followings</Tab.Item>
         </Tab.Items>
         <Tab.Content id="for-you">
-          <ForYou></ForYou>
+          <ForYou />
         </Tab.Content>
         <Tab.Content id="followings">2.Content</Tab.Content>
       </Tab>
-
     </>
   );
 }
