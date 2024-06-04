@@ -5,6 +5,6 @@ export const numberFormat = (value) => {
       notation: "compact",
       maximumFractionDigits: 1,
     };
-  }
+  } else if (value === 0) return null;
   return Intl.NumberFormat("en", config).format(value);
 };

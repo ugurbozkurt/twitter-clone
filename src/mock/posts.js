@@ -26,9 +26,31 @@ export const posts = [
     },
     account: {
       avatar:
-        "https://pbs.twimg.com/profile_images/1703048675239337984/6ay2racU_normal.jpg",
+        "https://pbs.twimg.com/profile_images/1770974491562143745/aizxvZg4_normal.jpg",
       username: "ugurbozkurt_gg",
       fullName: "ugurbozkurt",
+    },
+    stats: {
+      comments:0,
+      repost: 0,
+      like: 0,
+      view: 1,
+    },
+  },
+  {
+    id: "1708632465282150796",
+    type: "photo",
+    content: `Sevgili Arkadaşlar,
+
+    Ailecek Kulüp dizisini izleyip bitirdik. Çok beğendik. Tüm oyuncuları can-ı gönülden kutlarım :-)`,
+    photos: [
+      "https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large",
+    ],
+    account: {
+      avatar:
+        "https://pbs.twimg.com/profile_images/1374615485573165057/-AzXW69D_normal.jpg",
+      username: "ProfDemirtas",
+      fullName: "Özgür Demirtaş",
     },
     stats: {
       comments: 43535,
@@ -38,23 +60,23 @@ export const posts = [
     },
   },
   {
-    id: "1708632465282150796",
+    id: "1708632465234150796",
     type: "photo",
-    content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
+    content: `Aylık Para ve Banka İstatistikleri - Kasım 2023: http://tcmb.tl/Ze7b79f`,
     photos: [
       "https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large",
     ],
     account: {
       avatar:
-        "https://pbs.twimg.com/profile_images/1721055670932324352/MG7ym5tG_normal.jpg",
-      username: "tayfunerbilen",
-      fullName: "Tayfun Erbilen",
+        "https://pbs.twimg.com/profile_images/1668165926703837184/VmLKanS7_normal.png",
+      username: "Merkez_Bankasi",
+      fullName: "Merkez Bankası",
     },
     stats: {
-      comments: 43535,
-      repost: 3434,
-      like: 96946,
-      view: 903453,
+      comments: 1535,
+      repost: 5434,
+      like: 1946,
+      view: 73453,
     },
   },
   {

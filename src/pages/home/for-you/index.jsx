@@ -3,12 +3,12 @@ import Post from "../../../components/post";
 import { useState } from "react";
 import { WindowVirtualizer } from "virtua";
 export default function ForYou() {
+
   const [posts, setPosts] = useState(postData);
 
   return (
     <WindowVirtualizer
       onRangeChange={(start, end) => {
-   
         if (end + 1 === posts.length) {
           setPosts((prev) => [...prev, ...postData]);
         }
