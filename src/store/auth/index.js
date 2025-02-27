@@ -5,7 +5,7 @@ const initialState = {
 		id: 1,
 		username: 'ugurbozkurt_gg',
 		fullName: 'Uğur',
-		avatar: 'https://pbs.twimg.com/profile_images/1703048675239337984/6ay2racU_normal.jpg',
+		avatar: 'https://pbs.twimg.com/profile_images/1887576524313812992/L_Wraaeo_200x200.jpg',
 		isLocked: true,
 		notification : 3		
 	},
@@ -14,7 +14,7 @@ const initialState = {
 			id: 1,
 			username: 'ugurbozkurt.gg',
 			fullName: 'Uğur',
-			avatar: 'https://pbs.twimg.com/profile_images/1703048675239337984/6ay2racU_normal.jpg',
+			avatar: 'https://pbs.twimg.com/profile_images/1887576524313812992/L_Wraaeo_200x200.jpg',
 			isLocked: true,
 			notification : 3	
 		},
